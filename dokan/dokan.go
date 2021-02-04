@@ -70,6 +70,11 @@ func (fi *FileInfo) Path() string {
 	return lpcwstrToString(fi.rawPath)
 }
 
+// IsDir return file or directory
+func (fi *FileInfo) IsDir() bool {
+	return fi.ptr.IsDirectory != 0
+}
+
 // IsDeleteOnClose should be checked from Cleanup.
 func (fi *FileInfo) IsDeleteOnClose() bool {
 	return fi.ptr.DeleteOnClose != 0
