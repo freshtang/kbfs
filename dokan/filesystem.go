@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/keybase/kbfs/dokan/winacl"
+	"github.com/freshtang/kbfs/dokan/winacl"
 )
 
 // Config is the configuration used for a mount.

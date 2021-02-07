@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/keybase/kbfs/dokan/winacl"
+	"github.com/freshtang/kbfs/dokan/winacl"
 )
 
 type errorFile struct {
